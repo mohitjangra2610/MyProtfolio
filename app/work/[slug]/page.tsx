@@ -33,7 +33,7 @@ export default async function ProjectPage({ params }: Props) {
         </Link>
 
         {project.hero_image && (
-          <div className="relative aspect-[16/9] rounded-lg overflow-hidden bg-muted mb-10">
+          <div className="relative aspect-video rounded-lg overflow-hidden bg-muted mb-10">
             <Image
               src={project.hero_image}
               alt={project.title}
